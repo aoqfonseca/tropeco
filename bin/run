@@ -1,0 +1,5 @@
+#!/usr/bin/ruby
+
+require 'tropeco/bot'
+
+Tropeco.start
