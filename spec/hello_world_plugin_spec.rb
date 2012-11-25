@@ -1,5 +1,5 @@
-require 'tropeco/plugins/hello_world'
 require 'cinch'
+require 'tropeco/plugins/hello_world'
 
 shared_examples "a plugin" do
   it "should include cinch plugin" do
