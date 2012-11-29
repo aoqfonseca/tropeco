@@ -32,7 +32,8 @@ Gem::Specification.new do |s|
     "lib/tropeco/plugins/hello_world.rb",
     "lib/tropeco/plugins/transcriptions.rb",
     "run_test.br",
-    "spec/hello_world_plugin_spec.rb"
+    "spec/hello_world_plugin_spec.rb",
+    "tropeco.gemspec"
   ]
   s.homepage = "http://github.com/aoqfonseca/tropeco"
   s.licenses = ["MIT"]
