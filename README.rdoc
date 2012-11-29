@@ -5,9 +5,9 @@ IRC BOT using cinch lib.
 == Using
 
 At now, we have just tree plugins: 
-*hello : if you type "ola", tropeco answer you with "ola"
-*download : if you type !get url, tropeco will download that url for you
-*transcription : tropeco will transcript all msgs for output. In future him will wirte in a file.
+* hello : if you type "ola", tropeco answer you with "ola"
+* download : if you type !get url, tropeco will download that url for you
+* transcription : tropeco will transcript all msgs for output. In future him will wirte in a file.
 
 
 == Contributing to tropeco
