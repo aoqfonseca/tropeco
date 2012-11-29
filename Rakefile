@@ -2,7 +2,6 @@
 
 require 'rubygems'
 require 'bundler'
-require 'rspec/core/rake_task'
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -11,6 +10,7 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 require 'rake'
+require 'rspec/core/rake_task'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
