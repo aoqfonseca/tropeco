@@ -6,10 +6,10 @@ module Tropeco
 
       include Cinch::Plugin
 
-      match "bonjour"
+      match "ola"
 
       def execute(m)
-        m.reply "Bounjour"
+        m.reply "Ola a todos."
       end
     end
   end
