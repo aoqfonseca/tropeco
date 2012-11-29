@@ -7,12 +7,12 @@ module Tropeco
 
       include Cinch::Plugin
 
-      match /prend cella (.+)/
+      match /get (.+)/
 
       def execute(m, url)
-        m.reply "Je vais commencer"
+        m.reply "Começando"
         download(url)
-        m.reply "Je vien de fini votre telecharge"
+        m.reply "Terminei."
       end
 
       def download(url)
