@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "tropeco"
-  s.version = "0.1.1"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andre Fonseca"]
-  s.date = "2012-11-29"
+  s.date = "2012-11-30"
   s.description = "IRC BOT with somethings"
   s.email = "aoqfonseca@gmail.com"
   s.executables = ["tropeco"]
@@ -27,7 +27,10 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "bin/tropeco",
+    "config.yaml",
     "lib/tropeco.rb",
+    "lib/tropeco/configurations.rb",
+    "lib/tropeco/plugins.rb",
     "lib/tropeco/plugins/download.rb",
     "lib/tropeco/plugins/hello_world.rb",
     "lib/tropeco/plugins/transcriptions.rb",
@@ -52,6 +55,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
+      s.add_development_dependency(%q<ruby-debug19>, [">= 0"])
     else
       s.add_dependency(%q<cinch>, [">= 0"])
       s.add_dependency(%q<rake>, [">= 0"])
@@ -60,6 +64,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_dependency(%q<simplecov>, [">= 0"])
+      s.add_dependency(%q<ruby-debug19>, [">= 0"])
     end
   else
     s.add_dependency(%q<cinch>, [">= 0"])
@@ -69,6 +74,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
     s.add_dependency(%q<simplecov>, [">= 0"])
+    s.add_dependency(%q<ruby-debug19>, [">= 0"])
   end
 end
 
