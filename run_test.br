@@ -1,17 +1,6 @@
 #!/usr/bin/ruby
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
 require 'cinch'
-require 'tropeco/plugins/hello_world'
-require 'tropeco/plugins/download'
+require 'tropeco'
 
-
-bot = Cinch::Bot.new do
-  configure do |c|
-    c.server = "irc.freenode.org"
-    c.nick = "tropeco"
-    c.channels = ["#opaopa"]
-    c.plugins.plugins = [Tropeco::Plugins::HelloWorld, Tropeco::Plugins::DownloadFile]
-  end
-end
-
-bot.start
+Tropeco.start

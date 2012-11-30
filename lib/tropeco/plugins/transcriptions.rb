@@ -1,4 +1,5 @@
 require 'cinch'
+require 'tropeco/configurations'
 
 module Tropeco
   module Plugins
@@ -10,7 +11,6 @@ module Tropeco
       def listen(m)
           puts "&lt;#{m.user.nick}&gt; #{m.message}"
       end
-
     end
   end
 end

@@ -1,0 +1,6 @@
+nick_name: tropeco
+server: irc.freenode.org
+channels:
+    - "#opaopa"
+
+transcription_path: '/tmp'

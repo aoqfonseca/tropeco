@@ -10,7 +10,7 @@ module Tropeco
       match /get (.+)/
 
       def execute(m, url)
-        m.reply "Começando"
+        m.reply "Comecando"
         download(url)
         m.reply "Terminei."
       end
