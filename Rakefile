@@ -1,7 +1,8 @@
 # encoding: utf-8
-
 require 'rubygems'
 require 'bundler'
+
+
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -9,8 +10,14 @@ rescue Bundler::BundlerError => e
   $stderr.puts "Run `bundle install` to install missing gems"
   exit e.status_code
 end
+
 require 'rake'
 require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new(:spec) do |t|
+  t.pattern = 'spec/*_spec.rb'
+  t.verbose = true
+end
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
