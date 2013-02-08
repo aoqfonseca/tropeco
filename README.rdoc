@@ -1,17 +1,17 @@
 = tropeco
 
-IRC BOT using cinch lib. 
+IRC BOT using cinch lib.
 
 == Using
 
-At now, we have just tree plugins: 
+At now, we have just tree plugins:
 * hello : if you type "ola", tropeco answer you with "ola"
 * download : if you type !get url, tropeco will download that url for you
 * transcription : tropeco will transcript all msgs for output. In future him will wirte in a file.
 
 
 == Contributing to tropeco
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
